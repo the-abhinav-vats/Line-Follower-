@@ -1,7 +1,7 @@
 # Line-Follower-
 This repository helps to design the Line Follower using PID control with Arduino Nano.
 
-Components Required:
+# Components Required:
 1. Arduino Nano Microcontroller
 2. 2 x N20 Gear Motors
 3. TB6612FNG Motor Driver
@@ -16,17 +16,17 @@ Components Required:
 12. Wheels
 13. Connecting Wires
     
-Tools Required:
+# Tools Required:
 1. Screwdriver Set
 2. Soldering Iron
 3. Glue Gun
 
-Builduing IR Sensor Array:
+# Builduing IR Sensor Array:
 1. Put 8 recievers and transmitter on zero pcb board.
 2. connect the -ve of transmitter to GND and +ve of reciever to GND via 10K resistor.
 3. connect +ve of transmitter to 5V via 220 ohm and -ve of Receiver directly to 5V.  (refer to image given)
 
-Connections of Arduino Nano:
+# Connections of Arduino Nano:
 
 vcc -----> 5v
 GND -----> GND
@@ -41,7 +41,7 @@ A5 - IR6
 A6 - IR7
 A7 - IR8
 
-Motor Driver:
+# Motor Driver:
 
 PWMA - D11
 PWMB - D3
@@ -55,14 +55,14 @@ Vcc - 5v
 VM - 12v
 GND - GND (all 3 GND need to be shorted)
 
-SEE REFRENCE SCHEMATIC FOR CONNECTION:
+# SEE REFRENCE SCHEMATIC FOR CONNECTION:
 REF1 - For connection of IR sensor to get analog output
 REF2 - Design of IR sensor Array
 REF3 - Complete Connection Diagram.
 
 
 
-Code:
+# Code:
 // ===== 8 SENSOR PID LINE FOLLOWER =====
 // Arduino Nano + TB6612FNG + 8 Analog IR Sensors
 //ABHINAV VATS
